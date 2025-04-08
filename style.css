@@ -18,3 +18,43 @@ font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
  }
+ /* navigation */
+ .navbar {
+   position: fixed;
+   top: 0%;
+   width: 100%;
+   padding: 1.5rem 5%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: rgba(10, 10, 10, 0.95);
+   backdrop-filter: bluer(10px);
+   z-index: 1000;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+ }
+
+ .logo {
+   font-size: 1.8rem;
+   font-weight: 700;
+   color: var(--accent);
+   text-decoration: none;
+   position: relative;
+   padding-left: 2.5rem;
+ }
+
+ nav.links {
+   display: flex;
+   gap: 2rem;
+   list-style: none;
+ }
+
+ .nav-links a{
+   color: var(--text);
+   text-decoration: none;
+   font-weight: 500;
+ }
+ 
+ 
+ .nav-links a::after{
+   content: ;
+ }
