@@ -58,5 +58,30 @@ font-family: 'Segoe UI', sans-serif;
  
  
  .nav-links a::after{
-   content: ;
+   content: '';
+   position: absolute;
+   bottom: -5px;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background: var(--accent);
+   transition: width 0.3s ease;
+ }
+
+ .nav-links a:hover::after {
+  width: 100%;
+ }
+
+ .hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 12% 5%;
+  background: radial-gradient( circle at 75% 30%)
+  var((--acent-glow) 0%, transparent 30%);
+ }
+
+ .hero-content {
+  flex: 1;
+  padding-right: 5rem;
  }
